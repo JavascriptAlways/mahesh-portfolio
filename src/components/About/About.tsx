@@ -4,7 +4,7 @@ import { Button } from 'primereact/button';
 const About = () => {
   function countYears() {
   const currentYear = new Date().getFullYear();
-  const startYear = 2016;
+  const startYear = 2017;
   return currentYear - startYear + 1;
 }
 
